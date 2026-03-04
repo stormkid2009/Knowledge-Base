@@ -3,7 +3,7 @@ title: Restaurant Customer Service
 date: 2026-03-02
 type: general
 parent:
-status: draft
+status: growing
 tags:
   - experience
 repo: https://github.com/stormkid2009/restooo
@@ -19,7 +19,7 @@ Restaurant Customer Service
 Business logic to serve small restaurant customers to easily use our app
 
 ## What I Did
-I implemented the code using typescript , prisma , postgresql and nodejs
+I implemented the code using typescript , [[technology/prisma]] , [[technology/postgresql]] and [[technology/node-js]]
 
 ## What I Learned
 I created a class to encapsulate functionality which serve business logic and I can easily export singleton instance of it to be consumed across the app
@@ -39,8 +39,8 @@ https://github.com/stormkid2009/restooo/blob/f95a0772394a6dde422a7e2828c015773ac
 ## Connections
 
 - **Parent:** 
-- **Sub-experiences:** [[Experience/service-customer-response]]
-- **Related node:** [[Concept/OOP]]
+- **Sub-experiences:** [[service-customer-response]]
+- **Related node:** [[OOP]]
 - 
 
 ---

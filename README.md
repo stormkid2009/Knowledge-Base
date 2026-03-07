@@ -16,14 +16,34 @@ Every piece of real code on GitHub can be traced back to a note here.
 
 ---
 
+## The Structure
+
+**Experience is the center.** Everything else radiates from it.
+
+```
+              🔷 concept/
+                   ▲
+        validates  │  discovers
+                   │
+🔁 pattern/ ◄──── 🧪 experience/ ────► 🗂️ decisions/
+                   │
+         ┌─────────┼──────────┐
+         ▼         ▼          ▼
+      ⚙️ tech/  🏛️ arch/   🐛 debug/
+```
+
+An experience is where things actually happen. Every other node exists to capture what that experience taught, revealed, or produced.
+
+---
+
 ## The 8 Nodes
 
 | Node | The Question It Answers |
 |---|---|
-| 🔷 `concept/` | *Why does this exist? What is the core idea?* |
-| ⚙️ `technology/` | *What tool does this? How does it behave?* |
-| 🔁 `pattern/` | *How do I solve this class of problem?* |
 | 🧪 `experience/` | *What happened when I actually built it?* |
+| 🔷 `concept/` | *Why does this exist? What is the core idea?* |
+| 🔁 `pattern/` | *How do I solve this class of problem?* |
+| ⚙️ `technology/` | *What tool does this? How does it behave?* |
 | 🐛 `debugging/` | *What broke, why, and what did it teach me?* |
 | 🏛️ `architecture/` | *How does it all fit together at scale?* |
 | 🗂️ `decisions/` | *Why did I choose this over that?* |
@@ -31,37 +51,65 @@ Every piece of real code on GitHub can be traced back to a note here.
 
 ---
 
+## Two Kinds of Concepts
+
+Not all concepts are equal. Every experience touches concepts in two different ways:
+
+**Concepts I applied** — things I already understood and deliberately used.  
+**Concepts I discovered** — things the experience revealed, or ideas I only partially understood that need deeper work.
+
+Discovered concepts become `draft` concept notes. They are **gaps in my knowledge** — tracked with `#gap` tag until they become `solid`.
+
+This means the concept node has a lifecycle:
+- `draft` — surfaced by one experience, not yet owned
+- `growing` — appearing across multiple experiences, understanding deepening
+- `solid` — I can explain it, apply it, and recognize it anywhere
+
+---
+
+## Experiences Connect Directly To Each Other
+
+Not everything flows through a concept. Sometimes one experience directly unlocks another:
+
+> *"I built X, which gave me the foundation to attempt Y"*  
+> *"I built X, then the next logical step in the project was Y"*
+
+These direct chains are the **narrative of how I grew as a developer**. They live in the `Leads To` and `Came From` fields of every experience note.
+
+---
+
 ## How It Connects to GitHub
 
 Notes don't contain code — they **link to it**.
 
-Three link types used throughout this vault:
-
-- **File link** — points to a specific file in a repo
-- **Line link** — points to a specific line where something interesting happens
-- **Commit link** — points to a permanent snapshot in time (used for decisions and bugs)
-
-This means the vault stays lightweight while the code stays where it belongs — in the repos.
+| Link Type | Points To | Used For |
+|---|---|---|
+| File link | A specific file in a repo | Technology, pattern references |
+| Line link | A specific line in a file | Debugging, precise code moments |
+| Commit link | A permanent snapshot in time | Decisions, bug fixes — never changes |
 
 ---
 
 ## How To Use This Vault
 
-**When you finish a coding session:**
-- Did you learn a concept? → `concept/`
-- Did you use a new tool in a real way? → `technology/`
-- Did you apply a pattern? → `pattern/`
-- Did you ship something? → `experience/`
-- Did something break and teach you something? → `debugging/`
-- Did you make a significant design choice? → `decisions/`
+**After a coding session — ask these questions:**
 
-**When you're about to start something:**
-- Planning a new feature or system? → Start in `architecture/` or `decisions/`
+1. Did I apply or discover a concept? → `concept/`
+2. Did I use a pattern knowingly, or find one by accident? → `pattern/`
+3. Did something break and teach me something? → `debugging/`
+4. Did I make a real choice between two genuine alternatives? → `decisions/`
+5. Did I ship or build something? → `experience/`
+
+**Before starting something new:**
+- Planning a system or feature? → Start in `architecture/` or `decisions/`
 - Come back after and link to what you actually built
 
-**The most important habit:**  
-Every note should link to at least one other note and one GitHub URL.  
-A note with no links is an island — it's not part of the system yet.
+**The non-negotiable habits:**
+- Every note links to at least one other note
+- Every note links to at least one GitHub URL
+- Every bug creates or updates a concept note
+- Every discovered concept starts as `draft` with tag `#gap`
+- A note with no links is an island — it is not part of the system yet
 
 ---
 
@@ -69,6 +117,7 @@ A note with no links is an island — it's not part of the system yet.
 
 | Repo | What It Contains |
 |---|---|
+| [restooo](https://github.com/stormkid2009/restooo) | Restaurant app — customer service, business logic |
 | [Coding-Notes](https://github.com/stormkid2009/Coding-Notes) | Earlier notes — may be referenced here |
 | *(add repos as you connect them)* | |
 
@@ -76,6 +125,6 @@ A note with no links is an island — it's not part of the system yet.
 
 ## Meta
 
-- This vault is itself a repo — so decisions about *how the system works* are tracked in `decisions/`
-- The `map/` folder contains indexes, knowledge threads, and the graph of connections
+- This vault is itself a repo — decisions about how the system works are tracked in `decisions/`
+- The `map/` folder contains indexes and knowledge threads
 - Start exploring: [`map/`](map/)

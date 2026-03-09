@@ -12,7 +12,7 @@ repo: https://github.com/stormkid2009/restooo
 # 🧪 Customer Service
 
 > One sentence — what is this experience about?
-Building flexible business logic to serve small restaurant's clients
+ Building flexible business logic to serve small restaurant's clients
 ---
 
 ## What I Was Building
@@ -55,7 +55,7 @@ Type safety , handle errors and separate of concerns
 - 
 
 ### Other Nodes
-- **Pattern applied:** [[pattern/discriminated-union]] [[pattern/singleton]]
+- **Pattern applied:** [[pattern/discriminated-union]] [[module-singleton]]
 - **Decision made:** [[decision/feature-based-vs-layer-based]]
 - **Bug encountered:** 
 - **Technology used:** [[technology/typescript]]

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e11e914b5880f993",
+        "id": "fbf3ee34be8d1dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "fbcc16bea44285d2",
+            "id": "7904a8b4093eff87",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "experience/customer-service.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "customer-service"
+              "title": "New tab"
             }
           }
         ]
@@ -183,13 +179,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "fbcc16bea44285d2",
+  "active": "7904a8b4093eff87",
   "lastOpenFiles": [
-    "experience/service-customer.md",
+    "pattern/module-singleton.md",
     "experience/customer-service.md",
+    "concept/OOP.md",
+    "architecture/monolith.md",
+    "technology/typescript.md",
+    "decision/feature-based-vs-layer-based.md",
+    "pattern/discriminated-union.md",
+    "pattern",
+    "concept/single-instance-control.md",
+    "concept/type-safety.md",
+    "concept/separation-of-concerns.md",
+    "experience/service-customer.md",
     "pattern/typescript-generics.md",
     "experience/service-customer-response.md",
-    "concept/OOP.md",
     "templates/experience-template.md",
     "map",
     "templates"

@@ -25,7 +25,7 @@ Every piece of real code on GitHub can be traced back to a note here.
                    ▲
         validates  │  discovers
                    │
-🔁 pattern/ ◄──── 🧪 experience/ ────► 🗂️ decisions/
+🔁 pattern/ ◄──── 🧪 experience/ ────► 🗂️ decision/
                    │
          ┌─────────┼──────────┐
          ▼         ▼          ▼
@@ -38,16 +38,16 @@ An experience is where things actually happen. Every other node exists to captur
 
 ## The 8 Nodes
 
-| Node | The Question It Answers |
-|---|---|
-| 🧪 `experience/` | *What happened when I actually built it?* |
-| 🔷 `concept/` | *Why does this exist? What is the core idea?* |
-| 🔁 `pattern/` | *How do I solve this class of problem?* |
-| ⚙️ `technology/` | *What tool does this? How does it behave?* |
-| 🐛 `debugging/` | *What broke, why, and what did it teach me?* |
-| 🏛️ `architecture/` | *How does it all fit together at scale?* |
-| 🗂️ `decisions/` | *Why did I choose this over that?* |
-| 🗺️ `map/` | *How do all the notes connect to each other?* |
+| Node                | The Question It Answers                       |
+| ------------------- | --------------------------------------------- |
+| 🧪 `experience/`    | *What happened when I actually built it?*     |
+| 🔷 `concept/`       | *Why does this exist? What is the core idea?* |
+| 🔁 `pattern/`       | *How do I solve this class of problem?*       |
+| ⚙️ `technology/`    | *What tool does this? How does it behave?*    |
+| 🐛 `debugging/`     | *What broke, why, and what did it teach me?*  |
+| 🏛️ `architecture/` | *How does it all fit together at scale?*      |
+| 🗂️ `decision/`     | *Why did I choose this over that?*            |
+| 🗺️ `map/`          | *How do all the notes connect to each other?* |
 
 ---
 

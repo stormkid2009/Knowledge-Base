@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fbf3ee34be8d1dcf",
+        "id": "2905422bd9647259",
         "type": "tabs",
         "children": [
           {
-            "id": "7904a8b4093eff87",
+            "id": "760a1c6e1ad12492",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -179,15 +179,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "7904a8b4093eff87",
+  "active": "760a1c6e1ad12492",
   "lastOpenFiles": [
+    "README.md",
+    "pattern/discriminated-union.md",
     "pattern/module-singleton.md",
     "experience/customer-service.md",
     "concept/OOP.md",
     "architecture/monolith.md",
     "technology/typescript.md",
     "decision/feature-based-vs-layer-based.md",
-    "pattern/discriminated-union.md",
     "pattern",
     "concept/single-instance-control.md",
     "concept/type-safety.md",

@@ -11,10 +11,14 @@
             "id": "760a1c6e1ad12492",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "technology/typescript.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "typescript"
             }
           }
         ]
@@ -181,13 +185,14 @@
   },
   "active": "760a1c6e1ad12492",
   "lastOpenFiles": [
-    "README.md",
+    "templates/technology-template.md",
+    "technology/typescript.md",
     "pattern/discriminated-union.md",
+    "README.md",
     "pattern/module-singleton.md",
     "experience/customer-service.md",
     "concept/OOP.md",
     "architecture/monolith.md",
-    "technology/typescript.md",
     "decision/feature-based-vs-layer-based.md",
     "pattern",
     "concept/single-instance-control.md",

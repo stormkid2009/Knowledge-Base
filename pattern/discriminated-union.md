@@ -51,7 +51,7 @@ TypeScript narrows the type automatically when you check the discriminant field.
 <!-- knowingly | discovered -->
 discovered
 - **Related concept:** [[concept/type-safety]]
-- **Related technology:** [[technology/typescript-generics]]
+- **Related technology:** [[technology/typescript]]
 - **Related decision:** [[decision/consistency-vs-variant-responses]]
 
 ---

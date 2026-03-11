@@ -1,6 +1,7 @@
 ---
 title: 
 date: 
+since: 
 reviewed: 
 status: draft | growing | solid
 tags: [technology]
@@ -32,6 +33,15 @@ docs:
 
 ---
 
+## Progress Timeline
+<!-- One row per experience. The repo link is your proof. -->
+
+| When | Experience | What I Could Do | Proof |
+|---|---|---|---|
+|  | [[experience/]] |  |  |
+
+---
+
 ## Code Reference
 
 | What | Link |
@@ -52,5 +62,6 @@ docs:
   1. What concept does this tool express? → fill Implements concept
   2. Where did I actually use this? → fill First used in experience + Code Reference
   3. What surprised me or caught me out? → fill Key Behaviours To Remember
-  4. Update reviewed: date every time you revisit
+  4. Add a row to Progress Timeline every time you use this in a new experience
+  5. Update reviewed: date every time you revisit
 -->

@@ -40,10 +40,10 @@ At the beginning I used it like JavaScript and sometimes use any type to avoid h
 ## Progress Timeline
 <!-- One row per experience. The repo link is your proof. -->
 
-| When | Experience                  | What I Could Do          | Proof                                                                                                                            |
-| ---- | --------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| 2022 | [[experience/api-template]] | explicit type annotation | https://github.com/stormkid2009/api-template/blob/9995de1f563aedb4e5cd42631f87f5d9d98c62e2/src/v1/services/cardService.ts#L1-L64 |
-|      |                             |                          |                                                                                                                                  |
+| When | Experience                   | What I Could Do                    | Proof                                                                                                                            |
+| ---- | ---------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 2022 | [[experience/api-template]]  | explicit type annotation           | https://github.com/stormkid2009/api-template/blob/9995de1f563aedb4e5cd42631f87f5d9d98c62e2/src/v1/services/cardService.ts#L1-L64 |
+| 2024 | [[experience/prisma-helper]] | using generics instead of any type | https://github.com/stormkid2009/mham-api/blob/10b12c91a550896166b82171c907669952d653dd/src/middleware/prisma.helper.ts#L1-L18    |
 - - -
 
 

@@ -1,10 +1,11 @@
 ---
 title: object oriented programming
-date:
+date: 2026-03-11
 reviewed:
-status: draft | growing | solid
+status: draft
 tags:
   - concept
+  - "#gap"
 ---
 
 # 🔷 

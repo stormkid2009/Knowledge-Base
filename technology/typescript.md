@@ -6,6 +6,7 @@ reviewed:
 status: draft
 tags:
   - technology
+  - "#gap"
 docs: https://www.typescriptlang.org/docs/
 ---
 

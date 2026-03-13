@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "experience/customer-service.md",
+                "file": "architecture/layer-based.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "customer-service"
+              "title": "layer-based"
             }
           }
         ]
@@ -185,25 +185,25 @@
   },
   "active": "d3794200496cb6d2",
   "lastOpenFiles": [
-    "experience/api-template.md",
-    "pattern/versioning.md",
-    "pattern/discriminated-union.md",
-    "decision/adopting-layer-based-architecture.md",
-    "concept/type-safety.md",
-    "experience/prisma-helper.md",
-    "architecture/layer-based.md",
+    "architecture/monolith.md",
     "concept/generics.md",
-    "technology/typescript.md",
-    "experience/customer-service.md",
     "concept/object-oriented-programming.md",
+    "concept/separation-of-concerns.md",
+    "concept/single-instance-control.md",
+    "concept/type-safety.md",
+    "decision/feature-based-vs-layer-based.md",
+    "decision/adopting-layer-based-architecture.md",
+    "technology/typescript.md",
+    "pattern/versioning.md",
+    "pattern/module-singleton.md",
+    "pattern/discriminated-union.md",
+    "experience/prisma-helper.md",
+    "experience/api-template.md",
+    "experience/customer-service.md",
+    "architecture/layer-based.md",
     "templates/technology-template.md",
     "README.md",
-    "pattern/module-singleton.md",
-    "architecture/monolith.md",
-    "decision/feature-based-vs-layer-based.md",
     "pattern",
-    "concept/single-instance-control.md",
-    "concept/separation-of-concerns.md",
     "experience/service-customer.md",
     "pattern/typescript-generics.md",
     "experience/service-customer-response.md",

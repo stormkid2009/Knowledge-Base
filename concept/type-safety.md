@@ -5,6 +5,7 @@ reviewed:
 status: draft
 tags:
   - concept
+  - "#gap"
 ---
 
 # 🔷 

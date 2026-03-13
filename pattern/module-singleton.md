@@ -4,6 +4,7 @@ date: 2026-03-05
 status: draft
 tags:
   - pattern
+  - "#gap"
 ---
 
 # 🔁 Module Singleton

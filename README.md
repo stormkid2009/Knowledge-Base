@@ -1,7 +1,7 @@
 # 🧠 Knowledge-Base
 
 > A personal knowledge system that lives in Obsidian and connects to all my GitHub repos.  
-> Not a collection of notes — a network of understanding built from real code, real decisions, and real experience.
+> Not a collection of notes — a network of understanding built from real code, real decision, and real experience.
 
 ---
 
@@ -97,11 +97,11 @@ Notes don't contain code — they **link to it**.
 1. Did I apply or discover a concept? → `concept/`
 2. Did I use a pattern knowingly, or find one by accident? → `pattern/`
 3. Did something break and teach me something? → `debugging/`
-4. Did I make a real choice between two genuine alternatives? → `decisions/`
+4. Did I make a real choice between two genuine alternatives? → `decision/`
 5. Did I ship or build something? → `experience/`
 
 **Before starting something new:**
-- Planning a system or feature? → Start in `architecture/` or `decisions/`
+- Planning a system or feature? → Start in `architecture/` or `decision/`
 - Come back after and link to what you actually built
 
 **The non-negotiable habits:**
@@ -125,6 +125,6 @@ Notes don't contain code — they **link to it**.
 
 ## Meta
 
-- This vault is itself a repo — decisions about how the system works are tracked in `decisions/`
+- This vault is itself a repo — decisions about how the system works are tracked in `decision/`
 - The `map/` folder contains indexes and knowledge threads
 - Start exploring: [`map/`](map/)

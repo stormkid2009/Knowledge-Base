@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/layer-based.md",
+                "file": "experience/express-team.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "layer-based"
+              "title": "express-team"
             }
           }
         ]
@@ -185,6 +185,10 @@
   },
   "active": "d3794200496cb6d2",
   "lastOpenFiles": [
+    "experience/api-template.md",
+    "experience/express-team.md",
+    "map/index.md",
+    "architecture/layer-based.md",
     "architecture/monolith.md",
     "concept/generics.md",
     "concept/object-oriented-programming.md",
@@ -198,9 +202,7 @@
     "pattern/module-singleton.md",
     "pattern/discriminated-union.md",
     "experience/prisma-helper.md",
-    "experience/api-template.md",
     "experience/customer-service.md",
-    "architecture/layer-based.md",
     "templates/technology-template.md",
     "README.md",
     "pattern",

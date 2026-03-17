@@ -55,7 +55,9 @@ How to organize application's components structure and how components interconne
 
 ### Came From
 <!-- Direct links to experiences that preceded and enabled this one -->
+- [[experience/express-team]]
 - 
+
 
 ### Other Nodes
 - **Pattern applied:** [[pattern/versioning]]

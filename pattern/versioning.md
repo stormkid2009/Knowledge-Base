@@ -1,6 +1,6 @@
 ---
 title: versioning
-date:
+date: 2026-03-17
 status: draft
 tags:
   - pattern

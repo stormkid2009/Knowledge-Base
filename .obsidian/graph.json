@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "-path:templates  ",
+  "collapse-filter": false,
+  "search": "-path:templates  -path:map  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,

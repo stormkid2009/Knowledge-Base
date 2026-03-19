@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "261107d68c09cb90",
+        "id": "f42bdc2f82cd8d18",
         "type": "tabs",
         "children": [
           {
-            "id": "d3794200496cb6d2",
+            "id": "062020c261364b95",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "decision/adopting-layer-based-architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "adopting-layer-based-architecture"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#decision path:decision  ",
+                "query": "tag:#gap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,33 +184,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "d3794200496cb6d2",
+  "active": "062020c261364b95",
   "lastOpenFiles": [
+    "technology/postgresql.md",
+    "experience.md",
     "experience/express-team.md",
-    "experience/api-template.md",
-    "map/index.md",
-    "architecture/layer-based.md",
-    "architecture/monolith.md",
-    "concept/generics.md",
-    "concept/object-oriented-programming.md",
-    "concept/separation-of-concerns.md",
-    "concept/single-instance-control.md",
-    "concept/type-safety.md",
-    "decision/feature-based-vs-layer-based.md",
-    "decision/adopting-layer-based-architecture.md",
+    "technology/mongoose.md",
+    "technology/mongo-db.md",
+    "decision/adopting-mern-stack-technology.md",
+    "concept/asynchronous.md",
+    "pattern/monolithic-routes.md",
     "technology/typescript.md",
+    "technology/prisma.md",
+    "experience/mham-api.md",
+    "technology/jest.md",
+    "technology/express-js.md",
     "pattern/versioning.md",
+    "pattern/unit-tests.md",
     "pattern/module-singleton.md",
     "pattern/discriminated-union.md",
     "experience/prisma-helper.md",
     "experience/customer-service.md",
-    "templates/technology-template.md",
-    "README.md",
+    "experience/api-template.md",
+    "decision/feature-based-vs-layer-based.md",
+    "decision/adopting-unit-testing-over-manual-testing.md",
+    "decision/adopting-relational-db-with-prisma-orm.md",
+    "decision/adopting-layer-based-architecture.md",
+    "concept/type-safety.md",
+    "concept/testing.md",
     "pattern",
-    "experience/service-customer.md",
-    "pattern/typescript-generics.md",
-    "experience/service-customer-response.md",
-    "templates/experience-template.md",
     "map",
     "templates"
   ]

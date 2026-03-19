@@ -1,8 +1,8 @@
 ---
 title: prisma helper
 date: 2026-03-11
-type: general | sub
-parent:
+type: sub
+parent: "[[experience/mham-api]]"
 status: draft
 tags:
   - experience
@@ -10,7 +10,7 @@ tags:
 repo: https://github.com/stormkid2009/mham-api
 ---
 
-# 🧪 
+# 🧪 Prisma Helper
 
 > One sentence — what is this experience about?
 

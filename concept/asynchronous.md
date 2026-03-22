@@ -1,35 +1,30 @@
 ---
 title: asynchronous
 date: 2026-03-16
-reviewed:
-status: draft
+reviewed: 03/22/2026
+status: solid
 tags:
   - concept
-  - gap
 ---
 
 # 🔷 Asynchronous
 
 > One sentence — what is this concept in plain language?
-
+initiating an operation and go on without waiting for it when it completed we take reaction
 ---
 
 ## Core Idea
 <!-- The "why". What problem does this concept exist to solve? -->
-
+some operations need time to been resolved or rejected like API response
 ## Mental Model
 <!-- An analogy or image that makes it click for you personally -->
-
+- we are getting ready to go outside when the pizza is ready
+- async operation is like sub pipeline which merge back to the main when it completes
 ## Key Properties
 <!-- 3-5 bullet points. The essential things to know. -->
-
-## Common Misconception
-<!-- What do people (or you) get wrong about this? -->
-
-## Gaps I Still Have
-<!-- Honest list of what you don't fully understand yet about this concept -->
-<!-- Delete this section when status reaches solid -->
-- 
+- asynchronous operation will not block other operations
+- asynchronous is really useful with one thread language like JavaScript
+- asynchronous is good for operation which need time to be processed
 
 ---
 
@@ -37,12 +32,12 @@ tags:
 
 - **Surfaced by:** 
 <!-- The first experience that revealed this concept to you -->
-
+[[experience/express-team]]
 - **Reinforced by:** 
 <!-- Other experiences that deepened your understanding over time -->
-
-- **Expressed by pattern:** 
-- **Implemented by technology:** 
+[[experience/mham-api]] [[experience/customer-service]]
+- **Expressed by pattern:** [[pattern/high-order-function]]
+- **Implemented by technology:** [[technology/typescript]] [[technology/node-js]] 
 
 ---
 <!-- Habit check before closing:

@@ -6,27 +6,25 @@ parent: "[[experience/mham-api]]"
 status: draft
 tags:
   - experience
-  - "#gap"
+  - gap
 repo: https://github.com/stormkid2009/mham-api
 ---
 
 # 🧪 Prisma Helper
 
 > One sentence — what is this experience about?
-
+it is about reusable function I can share logic along my project
 ---
 
 ## What I Was Building
 <!-- The context. What was the goal? What problem were you solving? -->
-
+building middleware to handle prisma operations and HTTP request and response
 ## What I Did
 <!-- Your approach. Key decisions made. No need for full detail — link to the code. -->
-
+I built an async wrapper function to handle any prisma CRUD operations and send responses centralized in one place
 ## What I Learned
 <!-- The honest takeaway. What shifted in your understanding? -->
-
-## What Surprised Me
-<!-- Optional but valuable. What didn't go as expected? -->
+using generics here means this function any prisma operation regardless its return type
 
 ---
 
@@ -42,7 +40,8 @@ repo: https://github.com/stormkid2009/mham-api
 
 ### Concepts I Applied
 <!-- Concepts you already knew and deliberately used -->
-- 
+- [[concept/generics]]
+- [[concept/asynchronous]]
 
 ### Concepts I Discovered
 <!-- New or fuzzy concepts this experience surfaced → create a draft concept note for each one -->
@@ -54,13 +53,13 @@ repo: https://github.com/stormkid2009/mham-api
 
 ### Came From
 <!-- Direct links to experiences that preceded and enabled this one -->
-- 
+- [[experience/mham-api]]
 
 ### Other Nodes
-- **Pattern applied:** 
+- **Pattern applied:** [[pattern/high-order-function]]
 - **Decision made:** 
 - **Bug encountered:** 
-- **Technology used:** 
+- **Technology used:** [[technology/typescript]]
 - **Architecture involved:** 
 
 ---

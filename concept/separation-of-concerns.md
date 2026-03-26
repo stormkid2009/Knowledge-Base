@@ -1,35 +1,35 @@
 ---
 title: separation of concerns
 date: 2026-03-05
-reviewed:
-status: draft
+reviewed: 03/25/2026
+status: solid
 tags:
   - concept
-  - "#gap"
 ---
 
-# 🔷 
+# 🔷 Separation of concerns
 
 > One sentence — what is this concept in plain language?
-
+Each component in project has clear and specific role to do 
 ---
 
 ## Core Idea
 <!-- The "why". What problem does this concept exist to solve? -->
-
+to prevent potential bugs caused by shared responsibilities between different components
 ## Mental Model
 <!-- An analogy or image that makes it click for you personally -->
-
+Car has various components like engine battery ...etc and each one does its clear job
+to make the car go and transport us from place to other
 ## Key Properties
 <!-- 3-5 bullet points. The essential things to know. -->
-
+- determine principal role for every component
+- divide huge and fat components into subordinates to distribute roles
+- principal component role is to orchestrate the integration between subs
+- discover bugs and maintenance will be much easier
+- we have the ability to reuse the code or create instances of our components
 ## Common Misconception
 <!-- What do people (or you) get wrong about this? -->
-
-## Gaps I Still Have
-<!-- Honest list of what you don't fully understand yet about this concept -->
-<!-- Delete this section when status reaches solid -->
-- 
+I gave wrong role for certain component like register new user for user component instead of authentication component
 
 ---
 
@@ -37,12 +37,14 @@ tags:
 
 - **Surfaced by:** 
 <!-- The first experience that revealed this concept to you -->
-
+[[experience/api-template]]
 - **Reinforced by:** 
 <!-- Other experiences that deepened your understanding over time -->
-
-- **Expressed by pattern:** 
-- **Implemented by technology:** 
+- [[experience/mham-api]]
+- [[experience/quiz-maker]]
+- [[experience/restooo]]
+- **Expressed by pattern:** [[pattern/modular-monolith]]
+- **Implemented by technology:** [[technology/express-js]]
 
 ---
 <!-- Habit check before closing:

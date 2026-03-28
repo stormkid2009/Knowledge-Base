@@ -185,8 +185,10 @@
   },
   "active": "cd58c31d08b9afca",
   "lastOpenFiles": [
-    "pattern/modular-monolith.md",
+    "concept/server-side-rendering.md",
     "technology/next-js.md",
+    "experience/mham.md",
+    "pattern/modular-monolith.md",
     "pattern/module-singleton.md",
     "concept/separation-of-concerns.md",
     "pattern/versioning.md",
@@ -209,8 +211,6 @@
     "technology/mongo-db.md",
     "decision/adopting-mern-stack-technology.md",
     "pattern/monolithic-routes.md",
-    "technology/typescript.md",
-    "technology/prisma.md",
     "pattern",
     "map",
     "templates"

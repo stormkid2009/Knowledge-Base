@@ -52,7 +52,7 @@ Type safety , handle errors and separate of concerns
 
 ### Came From
 <!-- Direct links to experiences that preceded and enabled this one -->
-- 
+- [[experience/quiz-maker]]
 
 ### Other Nodes
 - **Pattern applied:** [[pattern/discriminated-union]] [[module-singleton]]

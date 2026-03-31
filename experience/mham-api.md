@@ -53,7 +53,7 @@ go out from comfort zone and try prisma orm with postegresql as database
 
 ### Leads To
 <!-- Direct links to experiences this one unlocked or made possible -->
-- 
+- [[experience/exams-platform]]
 
 ### Came From
 <!-- Direct links to experiences that preceded and enabled this one -->

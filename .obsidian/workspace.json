@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ba73b78892806c0e",
+        "id": "d651ce291ac86995",
         "type": "tabs",
         "children": [
           {
-            "id": "47634e632fc2d07f",
+            "id": "2e5e91cb19936811",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "architecture/layer-based.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "layer-based"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "90562dc3db19b3cc",
@@ -180,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "47634e632fc2d07f",
+  "active": "2e5e91cb19936811",
   "lastOpenFiles": [
+    "architecture/layer-based.md",
     "experience/prisma-helper.md",
     "experience/mham-api.md",
     "experience/mham.md",
@@ -208,7 +212,6 @@
     "concept/separation-of-concerns.md",
     "pattern/versioning.md",
     "decision/maintenance-flexibility-vs-mandatory-upgrade.md",
-    "concept/backward-compatibility.md",
     "pattern",
     "map",
     "templates"

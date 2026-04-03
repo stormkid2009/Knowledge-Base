@@ -11,8 +11,8 @@ repo: https://github.com/stormkid2009/api-template
 
 # 🏛️ Layer Based
 
-> One sentence — what structural problem does this architecture solve?
- Organize the code base into horizontal layers each one has fixed technical responsibility
+>One sentence — what structural problem does this architecture solve?
+  Organize the code base into horizontal layers each one has fixed technical responsibility
 ---
 
 ## The Problem At This Scale

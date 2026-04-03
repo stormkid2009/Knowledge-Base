@@ -1,17 +1,16 @@
 ---
 title: single instance control
 date: 2026-03-05
-reviewed:
-status: draft
+reviewed: 04/03/2026
+status: solid
 tags:
   - concept
-  - "#gap"
 ---
 
-# 🔷 
+# 🔷 Single Instance Control
 
 > One sentence — what is this concept in plain language?
-export class or object as a single new instance
+ Ensure one instance of an object exists in memory and provide a single point of access to it
 ---
 
 ## Core Idea
@@ -19,17 +18,17 @@ export class or object as a single new instance
 prevent filling the memory with many instances of the same object
 ## Mental Model
 <!-- An analogy or image that makes it click for you personally -->
-
+We have in school only one notice board, so all teachers use this board no new instances of the board.the risk here free access can make many problems!
 ## Key Properties
 <!-- 3-5 bullet points. The essential things to know. -->
-
+- exporting singleton instance gives us the control of object behavior
+- testing this kind of object will be difficult
+- sometimes we gonna need dependency injection
+- stateless object is preferred case to avoid global side effects
+- safer examples like logger , immutable config , database pool manager and dependency container
 ## Common Misconception
 <!-- What do people (or you) get wrong about this? -->
-
-## Gaps I Still Have
-<!-- Honest list of what you don't fully understand yet about this concept -->
-<!-- Delete this section when status reaches solid -->
-- 
+Single instance pattern is always good for shared resources but it can make hidden dependencies so it can be difficult in testing and can cause unexpected state sharing
 
 ---
 
@@ -37,12 +36,12 @@ prevent filling the memory with many instances of the same object
 
 - **Surfaced by:** 
 <!-- The first experience that revealed this concept to you -->
-
+[[experience/mham-api]]
 - **Reinforced by:** 
 <!-- Other experiences that deepened your understanding over time -->
-
-- **Expressed by pattern:** 
-- **Implemented by technology:** 
+[[experience/restooo]]
+- **Expressed by pattern:** [[pattern/module-singleton]]
+- **Implemented by technology:** [[technology/typescript]] [[technology/express-js]] [[technology/prisma]]
 
 ---
 <!-- Habit check before closing:

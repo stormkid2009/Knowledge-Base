@@ -1,10 +1,9 @@
 ---
 title: module singleton
 date: 2026-03-05
-status: draft
+status: solid
 tags:
   - pattern
-  - "#gap"
 ---
 
 # 🔁 Module Singleton
@@ -17,10 +16,11 @@ tags:
 Creating many instances or objects which absorb resources
 ## The Solution
 <!-- The structure. Who are the participants and what are their roles? -->
-Export only one instance of class and module system make it works as node-js does caching module after first import load
+- Export only one instance of class and module system make it works as node-js does caching module after first import load
+- This pattern emerges naturally even before you know its name because exporting a single instance is intuitive when you manage shared resources
 ## When To Use It
 <!-- ✅ Use when... -->
-when we need to manage resources
+when we need to manage resources and prevent messy caused by creating many instances of class or object
 ## When To Avoid It
 <!-- ❌ Avoid when... What simpler alternative exists? -->
 - Testing because singletons are hard to mock
@@ -31,9 +31,10 @@ when we need to manage resources
 ## Code Reference
 <!-- Link to where you actually applied this pattern in a real repo -->
 
-| What    | Link                                                                                                                                    |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| restooo | https://github.com/stormkid2009/restooo/blob/f95a0772394a6dde422a7e2828c015773acd34e2/src/modules/customer/customer.service.ts#L19-L325 |
+| What                    | Link                                                                                                                                    |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| [[experience/restooo]]  | https://github.com/stormkid2009/restooo/blob/f95a0772394a6dde422a7e2828c015773acd34e2/src/modules/customer/customer.service.ts#L19-L325 |
+| [[experience/mham-api]] | https://github.com/stormkid2009/mham-api/blob/10b12c91a550896166b82171c907669952d653dd/src/db/prisma.client.ts#L1-L6                    |
 
 ---
 
@@ -41,13 +42,13 @@ when we need to manage resources
 
 - **Applied in experience:** 
 <!-- The experience where you first used or discovered this pattern -->
-[[experience/customer-service]]
+ [[experience/restooo]] [[experience/mham-api]]
 - **Was I applying it knowingly or did I discover it?**
 <!-- knowingly | discovered -->
 discovered
 - **Related concept:** [[concept/single-instance-control]]
 - **Related technology:** [[technology/typescript]]
-- **Related decision:** 
+- **Related decision:** [[decision/adopting-single-instance-control]]
 
 ---
 <!-- Habit check before closing:

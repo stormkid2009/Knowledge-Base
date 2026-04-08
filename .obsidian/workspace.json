@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "decision/adopting-layer-based-architecture.md",
+                "file": "decision/adopting-single-instance-control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "adopting-layer-based-architecture"
+              "title": "adopting-single-instance-control"
             }
           }
         ]
@@ -183,19 +183,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "d5e4fae8ab1fb9b1",
+  "active": "1bf09a650e90e829",
   "lastOpenFiles": [
+    "experience/customer-service.md",
+    "decision/adopting-single-instance-control.md",
     "decision/adopting-layer-based-architecture.md",
     "concept/single-instance-control.md",
     "pattern/module-singleton.md",
-    "decision/adopting-single-instance-control.md",
     "architecture/layer-based.md",
     "pattern/singleton.md",
     "pattern/service-layer.md",
     "experience/prisma-helper.md",
     "experience/mham-api.md",
     "experience/mham.md",
-    "experience/customer-service.md",
     "experience/cakes-shop.md",
     "technology/zustand.md",
     "experience/exams-platform.md",

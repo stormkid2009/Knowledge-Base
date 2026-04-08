@@ -56,7 +56,7 @@ build fast to ship app using fat routes with mongo atlas and react for UI
 - 
 
 ### Other Nodes
-- **Pattern applied:** [[pattern/monolithic-routes]]
+- **Pattern applied:** [[fat-routes]]
 - **Decision made:** [[decision/adopting-mern-stack-technology]]
 - **Bug encountered:** 
 - **Technology used:** [[technology/express-js]] [[technology/mongo-db]][[technology/mongoose]] 

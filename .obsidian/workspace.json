@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "decision/adopting-single-instance-control.md",
+                "file": "concept/centralization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "adopting-single-instance-control"
+              "title": "centralization"
             }
           }
         ]
@@ -183,10 +183,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "1bf09a650e90e829",
+  "active": "d5e4fae8ab1fb9b1",
   "lastOpenFiles": [
-    "experience/customer-service.md",
+    "pattern/fat-routes.md",
+    "concept/centralization.md",
+    "decision/simple-and-ready-for-production.md",
     "decision/adopting-single-instance-control.md",
+    "experience/customer-service.md",
     "decision/adopting-layer-based-architecture.md",
     "concept/single-instance-control.md",
     "pattern/module-singleton.md",
@@ -208,10 +211,7 @@
     "concept/auth.md",
     "pattern/oauth.md",
     "experience/restooo.md",
-    "experience/next-auth.md",
-    "experience/mham]]  . [[experience/cakes-shop.md",
     "experience/mham]]  . [[experience",
-    "technology/next-js.md",
     "pattern",
     "map",
     "templates"

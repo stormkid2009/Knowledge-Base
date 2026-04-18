@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/centralization.md",
+                "file": "pattern/singleton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "centralization"
+              "title": "singleton"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:theoritcal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,18 +184,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "d5e4fae8ab1fb9b1",
+  "active": "86206d82d4fb2fe8",
   "lastOpenFiles": [
-    "pattern/fat-routes.md",
+    "pattern/module-singleton.md",
+    "pattern/modular-monolith.md",
+    "pattern/versioning.md",
+    "pattern/unit-tests.md",
+    "pattern/token-based-authentication.md",
+    "pattern/singleton.md",
     "concept/centralization.md",
+    "pattern/fat-routes.md",
     "decision/simple-and-ready-for-production.md",
     "decision/adopting-single-instance-control.md",
     "experience/customer-service.md",
     "decision/adopting-layer-based-architecture.md",
     "concept/single-instance-control.md",
-    "pattern/module-singleton.md",
     "architecture/layer-based.md",
-    "pattern/singleton.md",
     "pattern/service-layer.md",
     "experience/prisma-helper.md",
     "experience/mham-api.md",
@@ -204,13 +209,9 @@
     "experience/exams-platform.md",
     "technology/zod.md",
     "decision/adopting-zustand-state-management.md",
-    "pattern/token-based-authentication.md",
     "concept/state-management.md",
     "concept/type-safety.md",
     "experience/quiz-maker.md",
-    "concept/auth.md",
-    "pattern/oauth.md",
-    "experience/restooo.md",
     "experience/mham]]  . [[experience",
     "pattern",
     "map",

@@ -24,9 +24,13 @@ creating orders for customers in small restaurant and reserve tables for dine in
 <!-- Your approach. Key decisions made. No need for full detail — link to the code. -->
 - I used [[pattern/transaction]] via prisma interactive transaction as a wrapper for steps of creating the order to ensure all are success or roll back 
 - with this approach we avoid risks like table status occupied forever or two customers share the same table
+- create lookup for  items prices [[pattern/snapshot]]
+- safely move from order status to another as planned via [[pattern/state]]
 ## What I Learned
 <!-- The honest takeaway. What shifted in your understanding? -->
-doing series of dependent actions which all shall be success or fail
+- doing series of dependent actions which all shall be success or fail
+- improve performance can be done through simple and smart tip like items prices snapshot which reduce time complexity to O(1)
+- order status transitions can be safely achieved via state machine 
 ## What Surprised Me
 <!-- Optional but valuable. What didn't go as expected? -->
 the case table can be permanently occupied and two customers share the same table risks
@@ -38,6 +42,8 @@ the case table can be permanently occupied and two customers share the same tabl
 | What                           | Link                                                                                                                               |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
 | prisma interactive transaction | https://github.com/stormkid2009/restooo/blob/b4d1919d43759c6d0d26e8f13d4d560ee6c38cc0/src/modules/order/order.service.ts#L162-L211 |
+| lookup for items prices        | https://github.com/stormkid2009/restooo/blob/b4d1919d43759c6d0d26e8f13d4d560ee6c38cc0/src/modules/order/order.service.ts#L114-L118 |
+| order status change            | https://github.com/stormkid2009/restooo/blob/b4d1919d43759c6d0d26e8f13d4d560ee6c38cc0/src/modules/order/order.service.ts#L319-L417 |
 
 ---
 
@@ -46,10 +52,12 @@ the case table can be permanently occupied and two customers share the same tabl
 ### Concepts I Applied
 <!-- Concepts you already knew and deliberately used -->
 - [[concept/race-condition]]
+- [[concept/immutability]]
 
 ### Concepts I Discovered
 <!-- New or fuzzy concepts this experience surfaced → create a draft concept note for each one -->
 - [[concept/atomicity]]
+- [[concept/finite-states]]
 
 ### Leads To
 <!-- Direct links to experiences this one unlocked or made possible -->
@@ -60,7 +68,7 @@ the case table can be permanently occupied and two customers share the same tabl
 - [[experience/concurrency-study]]
 
 ### Other Nodes
-- **Pattern applied:** [[pattern/transaction]]
+- **Pattern applied:** [[pattern/transaction]] [[pattern/snapshot]] [[pattern/state-machine]]
 - **Decision made:** 
 - **Bug encountered:** 
 - **Technology used:** [[technology/prisma]]

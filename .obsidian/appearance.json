@@ -1,3 +1,8 @@
 {
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "interfaceFontFamily": "Liberation Mono",
+  "textFontFamily": "Liberation Mono",
+  "baseFontSize": 19,
+  "monospaceFontFamily": "Liberation Mono",
+  "cssTheme": "Obsidianite"
 }

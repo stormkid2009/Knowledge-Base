@@ -46,7 +46,7 @@ tags:
 
 - **Related concept:** [[concept/testing]]
 - **Related technology:** [[technology/jest]]
-- **Related decision:** [[decision/adopting-unit-testing-over-manual-testing]] 
+- **Related decision:** [[adopting-unit-testing-alongside-manual-testing]] 
 
 ---
 <!-- Habit check before closing:

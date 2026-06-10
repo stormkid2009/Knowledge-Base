@@ -1,10 +1,9 @@
 ---
 title: adopting layer based architecture
 date: 2026-03-13
-status: draft
+status: growing
 tags:
   - decision
-  - gap
 repo: https://github.com/stormkid2009/api-template
 ---
 

@@ -5,18 +5,18 @@ status: draft
 tags:
   - decision
   - gap
-repo:
+repo: https://github.com/stormkid2009/expressTeam
 ---
 
-# 🗂️ 
+# 🗂️ Adopting MERN Stack Technology
 
 > One sentence — what was the choice you had to make?
-
+Solid Stack like MERN or random technologies ?
 ---
 
 ## The Context
 <!-- What situation forced this decision? What were the constraints? -->
-
+Community appreciation for MERN push to try it
 ## The Real Options
 <!-- Only create this note if there were genuine alternatives -->
 
@@ -43,18 +43,18 @@ repo:
 ## Code Reference
 <!-- Link to the commit or file where this decision lives in the code -->
 
-| What | Link |
-|---|---|
-|  |  |
+| What         | Link                                                                                                             |
+| ------------ | ---------------------------------------------------------------------------------------------------------------- |
+| server index | https://github.com/stormkid2009/expressTeam/blob/26e97fff7dca692f6f66d229d71503af7b5499e3/server/index.js#L1-L39 |
 
 ---
 
 ## Connections
 
-- **Made during experience:** 
+- **Made during experience:** [[experience/express-team]]
 - **Based on concept:** 
 <!-- Was this decision made from a known concept or a fuzzy one? -->
-- **Concept confidence at time of decision:** known | fuzzy
+- **Concept confidence at time of decision:** fuzzy
 - **Related pattern:** 
 - **Related architecture:** 
 

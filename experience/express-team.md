@@ -21,11 +21,12 @@ building full stack app as MVP
 Serve small logistic agency with fast shipping app
 ## What I Did
 <!-- Your approach. Key decisions made. No need for full detail — link to the code. -->
-build fast to ship app using fat routes with mongo atlas and react for UI
+build fast to ship app using fat routes with mongo atlas and react for UI.
+the community trend pushed me towards MERN Stack so I gave it  a try and turned to my favorite later.
 ## What I Learned
 <!-- The honest takeaway. What shifted in your understanding? -->
 - the structure of full stack app directories with two main client and server folders 
-- warping my mind around the whole idea to imagine the real flow for each process
+- wrapping my mind around the whole idea to imagine the real flow for each process
 - discussing ideas with business manager to apply their needs
 
 ## Code Reference
@@ -57,7 +58,6 @@ build fast to ship app using fat routes with mongo atlas and react for UI
 
 ### Other Nodes
 - **Pattern applied:** [[fat-routes]]
-- **Decision made:** [[decision/adopting-mern-stack-technology]]
 - **Bug encountered:** 
 - **Technology used:** [[technology/express-js]] [[technology/mongo-db]][[technology/mongoose]] 
 - **Architecture involved:** [[architecture/monolith]]

@@ -1,10 +1,9 @@
 ---
 title: adopting single instance control
 date: 2026-04-02
-status: draft
+status: growing
 tags:
   - decision
-  - gap
 repo: https://github.com/stormkid2009/restooo
 ---
 
